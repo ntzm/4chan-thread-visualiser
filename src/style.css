@@ -1,0 +1,66 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #1d1f21;
+    color: #c5c8c6;
+    font-family: arial, helvetica, sans-serif;
+}
+
+input {
+    font-family: arial, helvetica, sans-serif;
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+}
+
+#settings {
+    z-index: 10;
+    padding: 5px;
+    background: #282a2e;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.vis-network-tooltip {
+    background: #282a2e !important;
+    border: 1px #282a2e solid !important;
+    color: #c5c8c6 !important;
+    font-family: arial, helvetica, sans-serif !important;
+    white-space: normal !important;
+}
+
+.vis-network-tooltip a {
+    color: #5f89ac;
+    text-decoration: underline;
+}
+
+.vis-network-tooltip .info .subject {
+    color: #b294bb;
+    font-weight: bold;
+}
+
+.vis-network-tooltip .info .name {
+    font-weight: bold;
+}
+
+.vis-network-tooltip .file img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.vis-network-tooltip blockquote {
+    max-width: 700px;
+}
+
+.vis-network-tooltip blockquote .quote {
+    color: #b5bd68;
+}

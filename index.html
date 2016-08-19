@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4chan Thread Visualiser</title>
+    <link rel="stylesheet" href="dist/style.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <div id="settings">
+        <form action="">
+            <label for="board">Board</label>
+            <input type="text" id="board" maxlength="5" size="5">
+            <label for="thread">Thread</label>
+            <input type="text" id="thread" maxlength="13" size="13">
+            <input type="submit" id="go"></input>
+        </form>
+        <div id="status">Status: Idle</div>
+    </div>
+    <div id="content"></div>
+    <script src="dist/app.min.js"></script>
+</body>
+</html>
